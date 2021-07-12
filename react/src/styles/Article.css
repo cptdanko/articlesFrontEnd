@@ -1,0 +1,31 @@
+.Articles {
+    list-style-type: none;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.Article {
+    padding-bottom: 8px;
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    border-bottom: 3px solid darkkhaki;
+}
+.Article .Story {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 15px;
+}
+.Article .Story .Title {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 0;
+}
+.Article .Story .Tag {
+    padding-bottom: 10px;
+    color: darkcyan;
+}
+.Article-Img {
+    max-width: 150px;
+    max-height: 150px;
+}
