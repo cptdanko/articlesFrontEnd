@@ -1,16 +1,14 @@
 import React from 'react';
-import axios from 'axios';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 import Article from './components/article';
-import userEvent from '@testing-library/user-event';
-import { act } from "react-dom/test-utils";
 
-
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/News/i);
-  expect(linkElement).toBeInTheDocument();
+describe("Test App.js" , () => {
+  test('should render learn react link', () => {
+    render(<App />);
+    const linkElement = screen.getByText(/News/i);
+    expect(linkElement).toBeInTheDocument();
+  });  
 });
 
 describe('Articles rendered', () => {
