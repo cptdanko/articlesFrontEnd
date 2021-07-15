@@ -12,7 +12,10 @@ function Articles() {
         axios.get('/all', {crossDomain: true})
         .then(response => setArticles(response.data));
     }, []);
-
+    function refresh() {
+        axios.get('/all', {crossDomain: true})
+        .then(response => response.data);
+    }
     function imgToDisplay(idx) {
         switch(idx) {
             case 0: 
@@ -26,6 +29,8 @@ function Articles() {
 
     return (
         <div>
+            <h3> Articles</h3>
+            <button data-test-id="refreshBtn" onClick={refresh}>Refresh</button>
             <ul className="Articles">
                 {articles.map((article, idx) => (
                     <div className="Article" key={article.id}>
