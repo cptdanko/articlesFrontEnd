@@ -18,7 +18,14 @@ SKIP_PREFLIGHT_CHECK=true
 
 And that's all, a full client-side app to consume data from the Articles API is ready to display the articles.
 
-To know more about the react app, navigate to the react directory in this repo. More details and a full-length blog post will be available soon at the [My Day To-Do Blog].
+# More great tutorials and code samples
+Checkout [this blog] for more "how-to" code samples, tutorials and just info on how to solve problems.
 
+If you like what I am doing, you can [buy me a coffee]
+
+Click on the next link for more info on the 13+ year [software engineering career journey] of the author.
+
+
+[software engineering career journey]: https://mydaytodo.com/the-3-stages-of-a-software-engineering-career/
+[this blog]: https://mydaytodo.com/blog/
 [Articles API]: https://github.com/cptdanko/articlesAPI
-[My Day To-Do Blog]: https://mydaytodo.com/blog
