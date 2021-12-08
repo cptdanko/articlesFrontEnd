@@ -28,4 +28,5 @@ Click on the next link for more info on the 13+ year [software engineering caree
 
 [software engineering career journey]: https://mydaytodo.com/the-3-stages-of-a-software-engineering-career/
 [this blog]: https://mydaytodo.com/blog/
+[buy me a coffee]: https://www.buymeacoffee.com/bhumansoni
 [Articles API]: https://github.com/cptdanko/articlesAPI
